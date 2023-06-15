@@ -1,8 +1,8 @@
 def pig_latin(string):
-    print(string)
-    split = string.split(' ')
-    reverse = split.reverse()
-    print(split)
+    pig = string[2:len(string)] + string[0] + string[1] + 'a'
+    for x in range (len(string)):
+        x = x + 1
+    print(pig)
 
 def run_program():
     print('please input a string')

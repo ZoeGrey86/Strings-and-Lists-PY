@@ -1,3 +1,5 @@
 import string_modification as string_mod
 
-string_mod.run_program()
+A=0
+while A < 1 :
+ string_mod.run_program()
